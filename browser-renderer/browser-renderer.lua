@@ -1,5 +1,5 @@
 project "browser-renderer"
-    location "browser-renderer"
+    location "."
     kind "ConsoleApp"
     language "C++"
     cppdialect "C++20"

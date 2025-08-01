@@ -18,11 +18,9 @@
 # Build files
 *.obj
 *.exe
-*.dll
 *.pdb
 *.ilk
 *.idb
-*.lib
 *.log
 *.sdf
 *.ipch
@@ -40,10 +38,15 @@
 *.suo
 *.user
 *.filters
-*s.ln
-*.rsuser
+*.sln
+*.user
 *.sln.docstates
 *.sln.bin
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+
 
 # Premake build folders
 bin/

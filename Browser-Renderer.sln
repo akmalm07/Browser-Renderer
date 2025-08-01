@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "browser-renderer", "browser-renderer", "{F4589BC7-E052-C419-C9BF-5A2AB5582A86}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "browser-renderer", "browser-renderer\browser-renderer\browser-renderer.vcxproj", "{8D5A6133-7953-8085-A285-650A8EDD5F91}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "browser-renderer", "browser-renderer\browser-renderer.vcxproj", "{8D5A6133-7953-8085-A285-650A8EDD5F91}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

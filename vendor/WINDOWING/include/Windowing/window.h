@@ -30,6 +30,8 @@ namespace windowing
 
 		Window(float windowWidth, float windowHeight, const std::string& name, bool enableFPSTag, bool createWindowT);
 
+		void init(float windowWidth, float windowHeight, const std::string& name, bool enableFPSTag, bool createWindow);
+
 		Window(Window&& other) noexcept;
 
 		Window& operator=(Window&& other) noexcept;
@@ -143,8 +145,6 @@ namespace windowing
 		double _mouseCurrentY = 0.0;
 
 	protected:
-
-		void init(float windowWidth, float windowHeight, const std::string& name, bool enableFPSTag, bool createWindow);
 
 		void HandleKeys(int key, int code, int action, int mode);
 		void HandleMouseCursor(double posX, double posY);
